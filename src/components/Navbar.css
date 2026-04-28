@@ -4,7 +4,7 @@
 .navbar {
     position: fixed;
     top: 0;
-    left: 20px;
+    left: 0;
     right: 0;
     z-index: 1000;
     padding: 20px 0px;
@@ -38,6 +38,7 @@
     font-weight: 700;
     color: var(--text-primary);
     text-decoration: none;
+    padding-left: 20px;
     letter-spacing: -0.5px;
     transition: transform 0.3s ease;
     display: flex;
